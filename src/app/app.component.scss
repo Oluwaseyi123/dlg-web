@@ -1,0 +1,31 @@
+@font-face {
+ font-family: 'Oswald-Regular', sans-serif ;
+ src: url(../assets/fonts/oswald-regular.ttf);
+}
+@font-face {
+ font-family: 'Oswald-Light', sans-serif ;
+ src: url(../assets/fonts/oswald-light.ttf);
+}
+@font-face {
+ font-family: 'Oswald-Bold', sans-serif ;
+ src: url(../assets/fonts/oswald-bold.ttf);
+}
+
+
+.main-container{
+ margin: 5em auto;
+ padding: 10px;
+
+ h1{
+  text-transform: uppercase;
+  font-family: 'Oswald-Bold', sans-serif ;
+ }
+ width: 100%;
+ max-width: 600px;
+ >hr{
+  border: 10px solid #000000;
+  margin: 15px auto;
+ }
+}
+
+

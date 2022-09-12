@@ -1,0 +1,17 @@
+<div class="accordion-item">
+ <div class="accordion"  *ngFor="let faq of faqsArr; let i = index" [ngClass]="{'active': isClicked && i == index}" >
+  <div class="accordion-header" (click)="showContent(i)" >
+    <div class="label">
+      <h3>Q{{faq.id}}</h3>
+      <p>{{faq.question}}</p>
+     </div>
+    <div class="icon-container">
+      <img src="../assets/images/plus-icon.svg" alt="plus icon">
+    </div>
+  </div>
+  <div class="content">
+   {{faq.answer}}
+   <hr>
+  </div>
+</div>
+</div>
